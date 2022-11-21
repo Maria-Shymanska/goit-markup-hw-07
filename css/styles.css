@@ -397,7 +397,6 @@ img {
 .form-field:focus-within > .form-input,
 .form-field:hover > .form-input {
   border-color: var(--accent-color);
-  transform: var(--animation-timing-function);
 }
 .form-field:focus-within > .form-icon,
 .form-field:hover > .form-icon {
@@ -413,14 +412,12 @@ img {
   border: 1px solid var(--form-border-color);
   border-radius: 4px;
   outline: transparent;
+  transition: border-color 250ms var(--animation-timing-function);
 }
 
 .form-input:focus-within .form-icon,
 .form-input:hover {
   border: 1px solid var(--accent-color);
-  border-radius: 4px;
-  transition-duration: 250ms;
-  transition-timing-function: var(--animation-timing-function);
 }
 
 input:focus-visible {
@@ -431,6 +428,7 @@ input:focus-visible {
   position: absolute;
   top: 50%;
   left: 12px;
+  transition: fill 250ms var(--animation-timing-function);
 }
 
 .form-massage::placeholder {
