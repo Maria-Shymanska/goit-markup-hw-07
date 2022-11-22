@@ -1,20 +1,21 @@
 :root {
-  $main-txt-cl: #212121;
-  $secondary-txt-cl: #757575;
-  $header-cl: #ececec;
-  $accent-cl: #2196f3;
-  $bg-footer-cl: #2f303a;
-  $footer-txt-cl: rgba(255, 255, 255, 0.6);
-  $logo-txt-cl: #000000;
-  $main-font: Roboto, sans serif;
-  $backround-cl: #ffffff;
-  $logo-cl: #2f303a;
-  $img-portfolio-txt: #eeeeee;
-  $socials-icon-cl: #afb1b8;
-  $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  $form-border-cl: rgba(33, 33, 33, 0.2);
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --header-color: #ececec;
+  --accent-color: #2196f3;
+  --background-footer-color: #2f303a;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --logo-text-color: #000000;
+  --main-font: Roboto, sans serif;
+  --backround-color: #ffffff;
+  --logo-color: #2f303a;
+  --img-portfolio-text: #eeeeee;
+  --socials-icon-color: #afb1b8;
+  --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --form-border-color: rgba(33 33, 33, 0.2);
 }
-body {
+
+.body {
   font-family: Roboto, sans-serif;
   color: var(--main-text-color);
   font-size: 14px;
