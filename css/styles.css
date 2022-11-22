@@ -1,4 +1,4 @@
-:root {
+/* :root {
   $main-txt-cl: #212121;
   $secondary-txt-cl: #757575;
   $header-cl: #ececec;
@@ -12,8 +12,8 @@
   $img-portfolio-txt: #eeeeee;
   $socials-icon-cl: #afb1b8;
   $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  $form-border-cl: rgba(33 33, 33, 0.2);
-}
+  $form-border-cl: rgba(33, 33, 33, 0.2);
+} */
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-text-color);
@@ -21,7 +21,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
+/* .list {
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -29,14 +29,14 @@ body {
 
 .link {
   text-decoration: none;
-}
+} */
 
 .link:hover,
 .link:focus {
   color: var(--accent-color);
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -44,7 +44,7 @@ h5,
 h6,
 p {
   margin: 0;
-}
+} */
 
 ul {
   margin: 0;

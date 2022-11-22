@@ -1,5 +1,9 @@
 // utils styles
+@import './utils/variables.scss';
+@import './utils/visually-hidden.scss';
 
-// base styles
+// base style
+@import './base/base.scss';
+@import './base/reset.scss';
 
-// components styles
+// components style
