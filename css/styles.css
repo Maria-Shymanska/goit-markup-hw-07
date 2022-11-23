@@ -600,15 +600,15 @@ input:focus-visible {
   padding-top: 0;
 }
 
-.gallery-item:not(:last-child) {
+.gallery__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.gallery-list {
+.gallery__list {
   display: flex;
 }
 
-.gallery-title {
+.gallery__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -616,14 +616,14 @@ input:focus-visible {
   color: var(--main-text-color);
   margin-bottom: 50px;
 }
-.overlay-box {
+.overlay__box {
   display: flex;
   position: relative;
   align-items: flex-end;
   opacity: 1;
 }
 
-.overlay-text {
+.overlay__text {
   display: flex;
   position: absolute;
   align-items: center;
@@ -638,7 +638,7 @@ input:focus-visible {
   background: rgba(47, 48, 58, 0.8);
 }
 
-/* --TEAM-- */
+/* --OUR-TEAM-- */
 
 .socials-list {
   display: flex;
@@ -732,19 +732,19 @@ input:focus-visible {
 
 /*---постійні клієнти--- */
 
-.clients-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   margin-bottom: 50px;
 }
-.clients-list {
+.clients__list {
   display: flex;
   gap: 30px;
 }
 
-.clients-item {
+.clients__item {
   justify-content: center;
   align-items: center;
   width: 170px;
@@ -752,7 +752,7 @@ input:focus-visible {
   gap: 30px;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -765,7 +765,7 @@ input:focus-visible {
   transition: color 250ms var(--animation-timing-function);
 }
 
-.clients-icon {
+.clients__icon {
   fill: currentColor;
 }
 .clients-link:hover,

@@ -1,1 +1,125 @@
-/*# sourceMappingURL=main.css.map */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  margin: -1px;
+}
+
+.benefits__list {
+  display: flex;
+  gap: 30px;
+}
+
+.benefits__icon {
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  display: flex;
+}
+
+.benefits__name {
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .hero-item:not(:last-child) {
+  margin-right: 30px;
+/* } */
+.benefits__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+  margin-bottom: 10px;
+}
+
+.benefits-pre__title {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.clients__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients__list {
+  display: flex;
+  gap: 30px;
+}
+
+.clients__item {
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  gap: 30px;
+}
+
+.clients__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--socials-icon-color);
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  transition: color 250ms var(--animation-timing-function);
+}
+
+.clients__icon {
+  fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--accent-color);
+}
+
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --header-color: #ececec;
+  --accent-color: #2196f3;
+  --background-footer-color: #2f303a;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --logo-text-color: #000000;
+  --main-font: Roboto, sans serif;
+  --backround-color: #ffffff;
+  --logo-color: #2f303a;
+  --img-portfolio-text: #eeeeee;
+  --socials-icon-color: #afb1b8;
+  --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --form-border-color: rgba(33 33, 33, 0.2);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  margin: -1px;
+}/*# sourceMappingURL=main.css.map */
