@@ -196,7 +196,7 @@ img {
   background-color: var(--accent-color);
 }
 
-/*------ MAIN------- */
+/*------ MAIN-SECTION------ */
 
 .hero-section {
   max-width: 1600px;
@@ -554,19 +554,19 @@ input:focus-visible {
   margin: -1px;
 }
 
-.benefits_list {
+.benefits__list {
   display: flex;
   gap: 30px;
 }
 
-.benefits_icon {
+.benefits__icon {
   justify-content: center;
   text-align: center;
   gap: 30px;
   display: flex;
 }
 
-.benefits_name {
+.benefits__name {
   height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
@@ -580,7 +580,7 @@ input:focus-visible {
   margin-right: 30px;
 /* } */
 
-.benefits_title {
+.benefits__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -589,7 +589,7 @@ input:focus-visible {
   margin-bottom: 10px;
 }
 
-.benefits-pre_title {
+.benefits-pre__title {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
