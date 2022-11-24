@@ -1,3 +1,13 @@
+// base styles
+
+@import './base/base';
+@import './base/reset';
+
+// utils styles
+
+@import './utils/variables';
+@import './utils/vhidden.scss';
+
 // components styles
 
 @import './components/benefits';
@@ -6,12 +16,3 @@
 @import './components/galery';
 @import './components/header';
 @import './components/our-team';
-
-// utils styles
-
-@import './utils/variables';
-@import './utils/vhidden.scss';
-
-// base styles
-@import './base/base';
-@import './base/reset';

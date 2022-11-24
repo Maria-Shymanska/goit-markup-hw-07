@@ -8,8 +8,8 @@
   text-decoration: none;
 }
 
-&::hover,
-&::focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
