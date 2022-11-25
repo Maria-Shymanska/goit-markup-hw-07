@@ -34,7 +34,7 @@
 .clients__icon {
   fill: currentColor;
 }
-&:hover,
-&:focus {
+.clients__link:hover,
+.clients__link:focus {
   color: var(--accent-color);
 }
