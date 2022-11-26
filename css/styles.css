@@ -385,7 +385,7 @@ img {
 .checkbox {
   position: absolute;
   bottom: 124px;
-  left: 55px;
+  left: 85px;
   width: 16px;
   height: 15px;
   border: 2px solid var(--logo-text-color);

@@ -29,12 +29,13 @@
   border-radius: 4px;
 
   transition: color 250ms var(--animation-timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .clients__icon {
   fill: currentColor;
-}
-.clients__link:hover,
-.clients__link:focus {
-  color: var(--accent-color);
 }

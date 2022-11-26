@@ -33,11 +33,10 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.header-logo:hover,
-.header-logo:focus {
-  color: #188ce8;
+  &:hover,
+  &:focus {
+    color: #188ce8;
+  }
 }
 
 .first-part {

@@ -5,7 +5,8 @@
 
 // utils styles
 
-@import './utils/variables';
+@import './utils/breakpoints.scss';
+@import './utils/variables.scss';
 @import './utils/vhidden.scss';
 
 // components styles
